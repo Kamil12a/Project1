@@ -1,55 +1,81 @@
-*{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin:0px;
+
+*{margin: 0;
+    box-sizing: border-box;
 }
-header{
-    display:flex;
-    height: 150px;
+
+p{
+    padding: 0px 0px 100px 0px;
+}
+a{
     color:white;
-    background: black;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    text-align: center;
-    
+    padding: 0px;
+    font-size:1.6em;
+    text-decoration: none;
 }
-body{
-    background: #eeeeee;
+ul{list-style-type: none;}
+
+.logo{
+   width: 100%; 
 }
-div{
-    min-width: 100px;
-    display:flex;
-    justify-content: space-between;
-    flex:1 1 0;
-    
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.header:before{
+    z-index: -1;
+    opacity: 0.8;
+content: " ";
+position: absolute;
+width: 100%;
+height: 100%;
+background: url(image/background.jpeg) repeat ;
+background-position: end 
+
+}
+h1{
+
+    font-size: 60px;
     
 }
 .left-side-menu{
-    width: 100%;
-    max-width: 300px;
-    margin: 0;
-    background:red;
     
-
+    color:white;
+    
+    position: fixed;
+    top:0px;
+    left: 0px;
+    background-color: black;
+    width: 200px;
+    height: 100vh;
+    
    
+}
+.heading-of-mid{
+    padding: 10px 0px 0px 0px;
+    text-align:center;
+    font-size:30px
+}
+.mid-of-advert{
+    display: flex;
+    padding:10px 20px 0px 200px;
+    text-align: center;
+}
+
+.p-at-leftmid{
+    font-size: 14px;
+}
+
+.p-at-midmid{
+    font-size: 14px;
+    
     
 }
-nav ul{
-    list-style-type: none;
-    padding:10px;
-}
-nav p{
-    color:#fff;
-    padding: 10px;
-
-}
-nav a{
-    font-size: large;
-    font-weight: bold;
-    text-decoration: none;
-    color:#fff;
-    padding:10px;
-}
-.photo1{
-    width: 500px;
+.p-at-rightmid{
+    font-size: 14px;
+    
+    
 }
