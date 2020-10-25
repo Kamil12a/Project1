@@ -4,12 +4,9 @@
     font-family: fantasy;
 }
 
-p{
-    padding: 0px 0px 100px 0px;
-}
-a{
+
+.left{
     color:white;
-    padding: 0px;
     font-size:1.6em;
     text-decoration: none;
 }
@@ -25,16 +22,16 @@ a{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: calc(100vw - 202px);
+    
 }
 .header:before{
 z-index: -1;
 opacity: 0.82;
 content: " ";
 position: absolute;
-width: calc(100vw - 202px);;
+width: 100%;
 
-height: 100%;
+height: 100vh;
 background: url(image/background.jpeg) repeat ;
 
 
@@ -42,9 +39,11 @@ background: url(image/background.jpeg) repeat ;
 h1{
 
     font-size: 100px;
-    
-}
 
+}
+#ul>*{
+    padding: 50px 0px 0px 0px;
+}
 .left-side-menu{
     
     color:white;
@@ -148,21 +147,20 @@ h4{
     display: grid;
     margin: 0px 0px 0px 202px;
     position: relative;
-    grid-template-columns: repeat(2,calc(50%-101)) ;
+    grid-template-columns: repeat(2,calc(50% - 101px)) ;
     grid-template-rows: repeat(6,100px);
     height: 60vh;
-    width: calc(100vw - 202px);;
+    width: 100%''
 }
 .about:before{
 z-index: -1;
 opacity: 0.3;
 content: " ";
 position: absolute;
-width: calc(100vw - 202px);
+width: 100%;
 height: 100%;
 background: url(image/background-2.jpg)  ;
-background-size: cover;
-background-position: center;
+
 }
 
 
@@ -184,7 +182,9 @@ h6{
     margin: 30px 0px 0px 0px;
 }
 
-   
+.person{
+    max-width: 100%;
+}
 
 
 aside{
