@@ -13,6 +13,10 @@ body{
     box-sizing: border-box;
 }
 body >*{margin: 0px 0px 0px 302px;}
+.infoTagA{
+    text-decoration: none;
+    color: #f5deb3;
+}
 header{
     text-align: center;
     background: url(imgage2/tło2.jpg) no-repeat ;
@@ -69,7 +73,7 @@ footer{
     top:100px;
 }
 .design >*{
-    padding: 10px;
+    padding: 10px ;
 }
 
 
@@ -261,6 +265,9 @@ width: 100%;
 position: relative;
 background-color: #191716;
 }
+.infoTagA{
+    text-decoration: none;
+    color:#988f85; ;}
 .informations{
 
 list-style: none;
@@ -452,6 +459,10 @@ footer{
     position: relative;
     background-color: #191716;
 }
+.infoTagA{
+    text-decoration: none;
+    color:#988f85; ;
+}
 .informations{
     
     list-style: none;
@@ -462,6 +473,7 @@ li{ font-size: 20px;
     text-align: center;
     color:  #988f85;
 }
+
 .image-in-footer{
     padding: 10px;
     text-align: center;
@@ -501,7 +513,7 @@ li{ font-size: 20px;
 .divDesign{padding: 50px 0px 0px 0px;
     display: flex;
 }
-.divDesign >*{padding: 20px 0px 0px 10px;
+.divDesign >*{padding: 20px 0px 0px 20px;
     
 }
 
