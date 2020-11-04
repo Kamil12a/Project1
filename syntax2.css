@@ -18,7 +18,10 @@ body >*{margin: 0px 0px 0px 302px;}
     color: #f5deb3;
 }
 header{
-    text-align: center;
+    padding: 0px 0px 100px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background: url(imgage2/tło2.jpg) no-repeat ;
     width: calc(100%-300px);
     height: 800px;
@@ -26,9 +29,7 @@ header{
     background-position: center;
     background-size: cover;
 }
-header >*{
-    padding: 140px 0px 0px 0px;
-}
+
 .a-nav-info{
     font-style: oblique;
     font-weight: bold;
@@ -36,12 +37,21 @@ header >*{
     color:#FFFFFF;
     text-transform: uppercase;
     text-shadow: 10px 5px 5px  rgb(26, 25, 25);
+    
+}
+.nav-to-info{
+    position: relative;
+    bottom: 75px;
+    text-align: center;
 }
 h2{
-    font-size: 45px;
+    font-size: 50px;
     color:#FFFFFF;
     text-transform: uppercase;
     text-shadow: 10px 5px 5px  rgb(7, 7, 7);
+}
+h6{
+    font-size: 100px;
 }
 .arrow{
     width: 50px;
@@ -102,7 +112,7 @@ article>*{
     padding: 20px;
 }
 h3{
-    font-size: 30px;
+    font-size: 40px;
 
         
     font-weight: bolder;
@@ -112,15 +122,18 @@ h3{
 }
 .h4 > *{
     
-    padding: 30px;
+    padding: 0px 0px 0px 0px;
+}
+h4{
+    font-size: 35px;
 }
 .heading4{ 
     
-    font-size: 25px;
+    
     color: black;
     text-decoration: none;
 }
-.heading4 >*{padding: 20px;}
+.heading4 >*{padding: 40px;}
 .heading4:visited{
     text-decoration: none;
     
@@ -136,6 +149,7 @@ h3{
 @media only screen and (max-width:1500px){ body{
     box-sizing: border-box;
 }
+.nav-to-info{bottom: 200px;}
 body >*{
     margin: 0px;
 }
@@ -168,11 +182,11 @@ text-transform: uppercase;
 header{
     background: url(imgage2/tło.jpg) no-repeat ;
     width: 100%;
-    
+    display: block;
     background-size: cover;
-    
+    padding: 0px;
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -181,7 +195,7 @@ header{
 
 
 h2{ 
-font-size: 50px;
+font-size: 60px;
 padding: 100px 0px 0px 0px;
 text-align: center;
 
@@ -191,7 +205,8 @@ text-transform: uppercase;
 text-shadow: 10px 5px 5px  rgb(26, 25, 25);
 }
 .nav-to-info{
-padding: 75px;
+    bottom: 95px;
+padding: 0px;
 display: block;
 text-align: center;
 }
@@ -200,7 +215,7 @@ text-align: center;
 
 font-style: oblique;
 font-weight: bold;
-font-size: 40px;
+font-size: 30px;
 color:#FFFFFF;
 text-transform: uppercase;
 text-shadow: 10px 5px 5px  rgb(26, 25, 25);
@@ -223,11 +238,12 @@ h3{
     text-transform: uppercase;
 }
 .arrow{
-height: 90px;
-width: 110px;
+height: 70px;
+width: 90px;
 
 }
 .h4{
+    
 margin:0px 0px 0px 0px;
 
 
@@ -237,12 +253,15 @@ font-weight: 400;
 text-decoration: none;
 color: #282423;
 }
+h4{
+    font-size: 50px;
+}
 .h4 > *{
 
-padding: 30px;
+padding: 20px;
 }
 .heading4{
-    font-size: 40px;
+    font-size: 30px;
 color: black;
 text-decoration: none;
 }
@@ -273,7 +292,7 @@ background-color: #191716;
 list-style: none;
 
 }
-li{ font-size: 30px;
+li{ font-size: 37px;
 padding: 10px;
 text-align: center;
 color:  #988f85;
@@ -333,6 +352,7 @@ display: flex;
     body >*{
         margin: 0px;
     }
+    .nav-to-info{bottom: 130px;}
 
     nav{ width: 100%;
         position: fixed;
@@ -360,11 +380,12 @@ display: flex;
     }
     
     header{
+        display: block;
         background: url(imgage2/tło.jpg) no-repeat ;
         width: 100%;
         height:100%;
         background-size: cover;
-        
+        padding: 0px;
         width: 100%;
         height: 550px;
         background-repeat: no-repeat;
@@ -385,7 +406,9 @@ h2{
     text-shadow: 10px 5px 5px  rgb(26, 25, 25);
 }
 .nav-to-info{
-    padding: 75px;
+    position: relative;
+    bottom: 55px;
+    padding: 0px ;
     display: block;
     text-align: center;
 }
@@ -400,20 +423,23 @@ h2{
     text-shadow: 10px 5px 5px  rgb(26, 25, 25);
 }
 article{
-    margin: 30px 0px 0px 0px;
     
+    
+    padding: 0px;
+    margin: 0px;
     text-align: center;
 }
 article > *{
-    padding: 10px;
-}
+    padding: 0px;
+    margin: 0px;}
+
 h3{    
         font-size: 30px;
 
         
         font-weight: bolder;
         
-        font-size: 20x;
+        
         text-transform: uppercase;
 }
 .arrow{
@@ -421,22 +447,23 @@ h3{
     width: 35px;
     
 }
+h4{
+    font-size: 30px;
+}
 .h4{
-    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
     
-    font-size: 25px;
+    
     margin: .5rem;
     font-family: NeoplantaBG-Bold,serif;
     font-weight: 400;
     text-decoration: none;
     color: #282423;
 }
-.h4 > *{
-    
-    padding: 30px;
-}
+
 .heading4{
-    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
     color: black;
     text-decoration: none;
 }
