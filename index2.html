@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="syntax2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
  
@@ -17,20 +18,24 @@
     
     <header>
         
-        <a><h2 id="Story" >Our Story</h2></a>
-        <h6 id="firsth6"class="firsth6"></h6>
-        <a><h2>Products</h2></a>
-        <h6 id="secoundh6" class="secoundh6"></h6>
-        <a><h2>Recipes</h2></a>
-        <h6 id="thirdh6"></h6>
+        <a class="ah2" href=""><h2 id="Story" >Our Story</h2></a>
+       
+        <a class="ah3" href=""><h2>Products</h2></a>
         
-        
+        <a class="ah4" href=""><h2>Recipes</h2></a>
+    
     </header>
+
+    <div class="hoverH6">
+        <h6 id="firsth6"class="firsth6"></h6>
+        <h6 id="secoundh6" class="secoundh6"></h6>
+        <h6 id="thirdh6"></h6>
+    </div>
     <div class="nav-to-info">
         <a href="#info"class="a-nav-info">info</a>
         <p></p>
         
-        <a href="#info"  ><img class="arrow" alt="arrow" src="imgage2/arrow1.png"></a>
+        <a href="#article" id="navInfo" class="navInfo" ><img class="arrow" alt="arrow" src="imgage2/arrow1.png"></a>
     </div>
 
 
@@ -46,7 +51,7 @@
         </div>
         
 
-    </article>
+    </article id="article">
     
     <footer>
         <h1 class="heading">Kamil's Restaurant</h1>
@@ -73,7 +78,11 @@
         
         
     </footer>
-    <script id="jss"src="indx.js"></script>
+    <div class="kamil">
+
+    
+    
+    <script id="jss"src="index.js"></script>
 
     
 </body>

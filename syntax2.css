@@ -7,6 +7,9 @@ nav{
     display: none;
 }
 
+.ah2 ,.ah3, .ah4 {text-decoration: none;
+
+}
 
 body{
     
@@ -17,18 +20,29 @@ body >*{margin: 0px 0px 0px 302px;}
     text-decoration: none;
     color: #f5deb3;
 }
+.hoverH6{
+    position: absolute;
+    top:600px;  
+    width: 80%;
+    text-align: center;
+    align-items: center;
+
+    
+}
+
 header{
-    padding: 0px 0px 100px 100px;
+    padding: 0px 0px 0px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: url(imgage2/tło2.jpg) no-repeat ;
     width: calc(100%-300px);
-    height: 800px;
+    height: 900px;
     background-size: cover;
     background-position: center;
     background-size: cover;
 }
+
 
 .a-nav-info{
     font-style: oblique;
@@ -106,6 +120,7 @@ footer{
     color: #282423;
 }
 article{
+    display: none;
     text-align: center;
 }
 article>*{
@@ -221,6 +236,7 @@ text-transform: uppercase;
 text-shadow: 10px 5px 5px  rgb(26, 25, 25);
 }
 article{
+    display: block;
 margin: 30px 0px 0px 0px;
 
 text-align: center;
