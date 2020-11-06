@@ -11,7 +11,6 @@ body{
     background: url("imageGetInTouch/tlo1.jpg") no-repeat;
     width: 100%;
     height: 150vh;
-    top:0px;
     background-size: cover;
     background-position: center;
     background-size: cover;
@@ -20,20 +19,22 @@ header{
     width: 100%;
     text-align: center;
     position: absolute;
+    top:0px;
     background-color: #282423;
-    height: 60px;
+    height: 90px;
     
 }
-h1{ font-size: 60px;
+h1{ font-size: 70px;
     font-family: NeoplantaBG-Bold,serif;
     font-weight: 400;
     color: white;
 }
 main{
-        
+    margin: 0px  100px 100px 100px;   
     border-radius: 10px;
     text-align: center;
     position: relative;
+    top:100px;
     
     
     text-align: center;
@@ -43,46 +44,43 @@ main{
 }
 
 @media only screen and (max-width:800px){
-
-
-
-    .background {
-        background: url("imageGetInTouch/tlo1.jpg") repeat;
+    .background{
+        margin: 0px;
+        position: relative;
+        background: url("imageGetInTouch/tlo1.jpg") no-repeat;
+        width: 100%;
+        height: 150vh;
+        top:0px;
+        background-size: cover;
         background-position: center;
-        height: 98vh;
-        }
-        
-    h1{
-        color:white ;
-        font-size: 60px;
-    }
-    h2{
-        font-size: 33px;
+        background-size: cover;
     }
     header{
-        height: 80px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        background-color: #282423;
+        height: 60px;
+        
+    }
+    h1{ font-size: 60px;
+        font-family: NeoplantaBG-Bold,serif;
+        font-weight: 400;
+        color: white;
     }
     main{
-        
-        
-        height: 75vh;
+            
+        border-radius: 10px;
+        text-align: center;
         position: relative;
-        top: 150px;
-        margin: 0px 150px 0px ;
         
         
-    }
-    main >*{
-        
-        padding: 50px 0px 0px 0px;
-    }
+        text-align: center;
+        background:#ffffff;}
     .Contactrow{
-        padding: 20px;
+        color:#282423;
     }
-    .Contactrow >*{
-        font-size: 23px;
-        padding: 7px 0px 0px 0px;
-    }
+
 
     
 
@@ -135,7 +133,51 @@ main{
 }
 
 
+@media only screen and (max-width:551px){
+    .background {
+        background: url("imageGetInTouch/tlo1.jpg") repeat;
+        background-position: center;
+        height: 115vh;
+        }
+        
+    h1{
+        color:white ;
+        font-size: 40px;
+    }
+    h2{
+        font-size:40px;
+    }
+    main{
+        
+        
+        height: auto;
+        position: relative;
+        top: 150px;
+        margin: 0px 105px 0px ;
+        
+        
+    }
+    header{
+        height: 60px;
+    }
+   
+   
+    .Contactrow{
+        padding: 20px  ;
+    }
+    .Contactrow >*{
+        
+        padding: 5px 0px 0px 0px;
+    }
+    .secondarytext{
+        font-size: 20px;
+    }
+    h2{
+        font-size:40px;
+    }
+    
 
+}
 
 
 
@@ -190,11 +232,11 @@ main{
 @media only screen and (max-width:361px){
     .background {
         
-        height: 120vh;
+        height: 130vh;
         }
         
         
-   
+    }
 
 
 @media only screen and (max-width:300px){
