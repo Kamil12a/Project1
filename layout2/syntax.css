@@ -1,133 +1,7 @@
-/* 
 
 
 
-
-@media only screen and (max-width:2000px){
-    *{
-        margin:0px;
-        padding: 0px;
-    }
-    body{
-        box-sizing: border-box;
-    }
-    .top{
-        position: fixed;
-        top:0px;
-        height: 80px;
-        
-        display:flex;
-        justify-content: space-between;
-        width: 100%;
-        background-color:black ;
-    }
-    .topright{
-        
-        display: flex;
-    }
-    .Homeh2 {
-        font-size: 40px;
-        color: aliceblue;
-        padding: 12px 0px 0px 10px;}
-    
-    .Carth2{
-        font-size: 40px;
-        color: aliceblue;
-        padding: 12px 10px 0px 10px;
-    }
-    .shop{padding: 10px 0px 0px 0px;
-        width: 50px;
-        height: 50px;
-    }
-    
-    header{
-        height: 800px;
-        margin: 50px 0px 0px 0px;
-        background:url(image/tlo.jpg);
-        background-size: cover;
-      background-position: 10% 40%;
-    }
-    .tittle{
-        padding: 175px 0px 0px 50px;
-        color:white;
-        text-align: center;
-        width: 350px;
-        
-    }
-    h1{
-        font-size: 4em;
-    }
-    .the{
-        
-        font-size:5em
-    }
-    .navigation{
-        padding: 12px 10px 0px;
-        height: 70px;
-        list-style: none;
-        width: calc(100%-20px);
-        display: flex;
-        justify-content: space-between;
-        background-color: black;
-        
-    }
-    nav{
-        margin: 0px 0px 10px 0px;
-    }
-    a{  font-size: 3em;
-        color: white;
-        text-decoration: none;}
-    .description{
-        display:none;
-    }
-    .lane2{
-        width: 100%
-    }
-    main{
-        text-align: center;
-    }
-    .grzyby{
-        border-radius: 20px;
-        width: 600px;
-    }
-    .acena{
-        font-size: 4em;
-        padding: 10px 0px 10px 0px;
-    }
-    .amount, .quantity{
-        display: none;
-    }
-    button{
-        font-size: 40px;
-        width: 120px;
-    }
-    footer{
-        text-align: center;
-        background-color: black;
-    }
-    h3{
-        color: aliceblue;
-        font-size: 3em;
-        padding: 10px 0px 10px 0px;
-    }
-    .fb, .yt,.tw{
-        width: 75px;
-    }
-    .paragraphs{
-        font-size: 2.2em;
-        padding: 5px 0px 5px 0px;
-        color: aliceblue;
-    }
-    .paragraphs >*{
-        padding: 5px 0px 0px 0px;
-    }
-
-}
-
-
-
-
- */
+ 
  @media only screen and (max-width:2000px){
     *{
         margin:0px;
@@ -364,6 +238,9 @@
         font-size: 40px;
         width: 120px;
     }
+    .arow ,.brow, .crow , .drow , .erow{
+        display:block;
+    }
     footer{
         text-align: center;
         background-color: black;
@@ -486,6 +363,9 @@
     }
     .amount, .quantity{
         display: none;
+    }
+    .arow ,.brow, .crow , .drow , .erow{
+        display:block;
     }
     button{
         font-size: 20px;
