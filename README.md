@@ -1,2 +1,2 @@
 # jfdzr2-project-1
-![layout2]layoout2/index.html)
+[Layout2](layout2/index.html)
