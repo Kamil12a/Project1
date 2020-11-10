@@ -25,7 +25,7 @@ header{
     height: 150px;
     
 }
-h1{ font-size: 90px;
+h1{ font-size: 85px;
     font-family: NeoplantaBG-Bold,serif;
     font-weight: 400;
     color: white;
@@ -56,6 +56,108 @@ h2{
 }
 .secondarytext{
     font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    padding: 0px;
+    width: 100%;
+    position: relative;
+    background-color: #191716;
+    }
+    .infoTagA{
+        text-decoration: none;
+        color:#988f85; ;}
+    .informations{
+    
+    list-style: none;
+    
+    }
+    li{ font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    color:  #988f85;
+    }
+    .image-in-footer{
+    padding: 10px;
+    text-align: center;
+    }
+    .fb{
+    width: 50px;
+    }
+    .tw{
+    width: 50px;
+    }
+    .yt{width: 50px;}
+    .paragpah-footer{
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    color:#565150;;
+    }
+    .design{
+        
+    text-align: center;
+    display: block;
+    position: relative;
+    top:0px;
+    display: flex;
+    justify-content: center;
+    color:#565150 ;
+    }
+    
+    .paragpa{
+    font-size: 30px;
+    }
+    .para{ padding: 0px 0px 0px 10px;
+        font-size: 30px;
+    color:wheat;
+    }
+    .heading{
+    display: none;
+    }
+    .divDesign{padding: 50px 0px 0px 0px;
+    display: flex;
+    }
+    .divDesign >*{
+        padding: 20px 0px 0px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:3800px){
+    main{
+        
+           margin:0px 1200px 0px;
+        
+    
+        
+        
+        
 }
 
 @media only screen and (max-width:3200px){
@@ -97,10 +199,10 @@ h2{
         
     }
     h2{
-        font-size: 40px;
+        font-size: 35px;
     }
     .secondarytext{
-        font-size: 30px;
+        font-size: 27px;
     }
 
 }
@@ -147,6 +249,72 @@ h2{
         
         padding: 7px 0px 0px 0px;
     }
+footer{
+    padding: 0px;
+    width: 100%;
+    position: relative;
+    background-color: #191716;
+    }
+    .infoTagA{
+        text-decoration: none;
+        color:#988f85; ;}
+    .informations{
+    
+    list-style: none;
+    
+    }
+    li{ font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    color:  #988f85;
+    }
+    .image-in-footer{
+    padding: 10px;
+    text-align: center;
+    }
+    .fb{
+    width: 50px;
+    }
+    .tw{
+    width: 50px;
+    }
+    .yt{width: 50px;}
+    .paragpah-footer{
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    color:#565150;;
+    }
+    .design{
+        
+    text-align: center;
+    display: block;
+    position: relative;
+    top:0px;
+    display: flex;
+    justify-content: center;
+    color:#565150 ;
+    }
+    
+    .paragpa{
+    font-size: 30px;
+    }
+    .para{ padding: 0px 0px 0px 10px;
+        font-size: 30px;
+    color:wheat;
+    }
+    .heading{
+    display: none;
+    }
+    .divDesign{padding: 50px 0px 0px 0px;
+    display: flex;
+    }
+    .divDesign >*{
+        padding: 20px 0px 0px 0px;
+    }
+
+
+
 
 }
 
@@ -194,10 +362,41 @@ h2{
         padding: 7px 0px 0px 0px;
     }
 
+    
+       
+        
+        
+        li{ font-size: 32px;
+        padding: 7px;
+        text-align: center;
+        color:  #988f85;
+        }
+        
+        .fb{
+        width: 60px;
+        }
+        .tw{
+        width: 60px;
+        }
+        .yt{width: 60px;}
+        .paragpah-footer{
+        
+        font-size: 27px;
+        
+        }
+       
+        
+        .paragpa{
+        font-size: 40px;
+        }
+        .para{ 
+            font-size: 40px;}
+       
+      
+
 }
     
 
-    
 
 
 
@@ -224,7 +423,7 @@ h2{
     main{
         
         
-        height: 75vh;
+        height: 80vh;
         position: relative;
         top: 150px;
         margin: 0px 150px 0px ;
@@ -236,29 +435,53 @@ h2{
         padding: 50px 0px 0px 0px;
     }
     .Contactrow{
-        padding: 20px;
+        padding:15px;
     }
     .Contactrow >*{
         
         padding: 7px 0px 0px 0px;
     }
     h2{
-        font-size :30px;
+        font-size :27px;
     }
     .secondarytext{
-        font-size:25px;
+        font-size:22px;
     }
-
+    li{ font-size: 24px;
+        padding: 5px;
+        text-align: center;
+        color:  #988f85;
+        }
+        
+        .fb{
+        width: 40px;
+        }
+        .tw{
+        width: 40px;
+        }
+        .yt{width: 40px;}
+        .paragpah-footer{
+        
+        font-size: 20px;
+        
+        }
+       
+        
+        .paragpa{
+        font-size: 25px;
+        }
+        .para{ 
+            font-size: 25px;}
     
 
 }
 
 
-@media only screen and (max-width:551px){
+@media only screen and (max-width:555px){
     .background {
         background: url("imageGetInTouch/tlo1.jpg") repeat;
         background-position: center;
-        height: 115vh;
+        height: 135vh;
         }
         
     h1{
@@ -270,8 +493,8 @@ h2{
     }
     main{
         
+        height: 110vh;
         
-        height: auto;
         position: relative;
         top: 150px;
         margin: 0px 105px 0px ;
@@ -284,7 +507,7 @@ h2{
    
    
     .Contactrow{
-        padding: 20px  ;
+        padding: 30px  ;
     }
     .Contactrow >*{
         
@@ -302,6 +525,31 @@ h2{
     .secondarytext{
         font-size:20px;
     }
+    li{ font-size: 20px;
+        padding: 7px;
+        text-align: center;
+        color:  #988f85;
+        }
+        
+        .fb{
+        width: 40px;
+        }
+        .tw{
+        width: 40px;
+        }
+        .yt{width: 40px;}
+        .paragpah-footer{
+        
+        font-size: 20px;
+        
+        }
+       
+        
+        .paragpa{
+        font-size: 25px;
+        }
+        .para{ 
+            font-size: 25px;}
 
 
 }
@@ -312,9 +560,9 @@ h2{
     .background {
         background: url("imageGetInTouch/tlo1.jpg") repeat;
         background-position: center;
-        height: 110vh;
+        height: 125vh;
         }
-        
+
     h1{
         color:white ;
         font-size: 40px;
@@ -322,7 +570,7 @@ h2{
     main{
         
         
-        height: auto;
+        height: 95vh;
         position: relative;
         top: 150px;
         margin: 0px 25px 0px ;
@@ -332,6 +580,7 @@ h2{
     header{
         height: 60px;
     }
+    
    
     main >*{
         
@@ -341,10 +590,36 @@ h2{
         padding: 20px;
     }
     .Contactrow >*{
-        font-size: 1em;
+        
         padding: 5px 0px 0px 0px;
     }
-
+    li{ font-size: 20px;
+        padding: 7px;
+        text-align: center;
+        color:  #988f85;
+        }
+        
+        .fb{
+        width: 40px;
+        }
+        .tw{
+        width: 40px;
+        }
+        .yt{
+            width: 40px;
+        }
+        .paragpah-footer{
+        
+        font-size: 20px;
+        
+        }
+       
+        
+        .paragpa{
+        font-size: 25px;
+        }
+        .para{ 
+            font-size: 25px;}
     
 
 }
@@ -361,15 +636,30 @@ h2{
         
         height: 130vh;
         }
+        main{
+            height: 100vh;
+        }
         
         
     }
 
 
 @media only screen and (max-width:300px){
+    
+    .background {
+        
+        height: 150vh;
+        }
+        main{
+            height: 120vh;
+        }
+    
     h1{
         
         font-size: 35px;
+    }
+    .paragpah-footer{
+        font-size: 17px;
     }
     
     

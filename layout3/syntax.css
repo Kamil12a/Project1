@@ -1,0 +1,384 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+}
+header{
+    padding-top: 10px ;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: black;
+}
+.reception{
+    
+    text-decoration: none;
+    color: white;
+}
+nav{ 
+    display: flex;
+    width: 100%;
+}
+.navigation2{
+    list-style: none;
+    padding-top:25px ;
+    width: 100%;
+    display: flex;
+      
+}
+.listnavigation{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.ikea{
+    padding:0px;
+    width: 130px;
+}
+.car-logo{
+    width: 40px;
+}
+.user-logo{
+    width: 30px;
+}
+.heart-logo{
+    width: 40px;
+}
+.basket-logo{
+    width: 40px;
+}
+.list-nav-image{
+    display: flex;
+    width: 50%;
+    justify-content:space-around;
+}
+
+.search-field__input{
+    margin-top: 5px;
+    margin-left: 40px ;
+    font-size: 1.2em;
+    border-radius: 30px;
+    width: 60%;
+    height: 30px;
+    border-color: rgba(172, 150, 134, 0.5);;
+    background-color: rgba(172, 150, 134, 0.2);
+}
+
+main{
+    margin: 30px 100px 30px 100px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    gap:20px
+
+}
+
+
+
+.IkeaFamilyText{
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 2.5em;
+    color:white;
+    text-shadow: 10px 5px 5px  rgb(26, 25, 25);
+    
+    background-color: rgba(98, 122, 147, 0.6);
+}
+
+
+.IkeaFamilyText3{
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 2em;
+    color:white;
+    text-shadow: 10px 5px 5px  rgb(26, 25, 25);
+    
+   
+}
+
+.kitchen{
+    
+    width: 100%;
+    background:url("kuchnia.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+.living_room{
+    
+    width: 100%;
+    background:url("salon.jpg");
+    
+    background-size: cover;
+      background-position: center;
+    
+}
+.mainHeading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.mainHeading2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.threePhotos{
+    margin:30px 100px 30px;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    
+    gap:20px
+}
+
+.pan{
+    width: 100%;
+    background:url("patelnia.jpg");
+    
+    background-size: cover;
+      background-position: center;
+}
+.star{
+    width: 100%;
+    background:url("star.jpeg");
+    
+    background-size: cover;
+      background-position: center;
+}
+.cupboard{width: 100%;
+    background:url("cupboard.jpg");
+    
+    background-size: cover;
+      background-position: center;
+
+}
+
+.container{
+    margin: 60px 100px 0px 100px;
+    display: flex;
+    height: 30vh;
+    width: 70%;
+    justify-content: center;
+    gap: 20px;
+}
+.kids{
+    width: 100%;
+    background: url("kids.jpg") no-repeat;
+    background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding-top: 20vh;
+
+}
+.HoverText{
+    opacity: 0;
+    padding-right: 10px;
+    padding-left:5px ;
+    text-decoration: none;
+    font-size: 1.8em;
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: .30s .1s ease-in-out;
+}
+.kids:hover .HoverText {
+    opacity: 1;
+    transition: .3s .3s ease-in-out;
+}
+.lying{
+    width: 100%;
+    background: url("lying.jpg") no-repeat;
+    background-size: cover;
+      background-position: center;
+      padding-top: 20vh;
+      text-align: center;
+}
+.lying:hover .HoverText{
+    opacity: 1;
+    transition: .3s .3s ease-in-out;
+}
+
+.food{
+    width: 100%;
+    background:url("food.jpeg") no-repeat;
+    background-size: cover;
+      background-position: center;
+      padding-top: 20vh;
+      text-align: center;
+}
+.food:hover .HoverText {
+    opacity: 1;
+    transition: .3s .3s ease-in-out;
+}
+.project{
+    width: 100%;
+    background:url("project.jpeg") no-repeat;
+    background-size: cover;
+      background-position: center;
+      padding-top: 20vh;
+      text-align: center;
+
+}
+.project:hover .HoverText {
+    opacity: 1;
+    transition: .3s .3s ease-in-out;
+}
+
+
+
+.checkUs{
+    width: 100%;
+    background-color: rgba(216, 181, 157, 1);
+    padding-top:50px ;
+    padding-left:15px ;
+
+}
+.checkUsText{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+    color:white;
+    text-shadow: 1px 1px 1px  rgb(26, 25, 25);
+}
+.arrow-border{
+    margin-top: 10vh;
+    margin-right: 80%;
+    
+    background-color: white;
+    border: 2px solid white;
+    
+    border-radius: 100px;
+    
+}
+.arrow{
+    display: flex;
+    
+    justify-content: center;
+    width: 100%;
+    
+   
+}
+.heading-Better{
+    margin-left:100px ;
+}
+.betterText{
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+.betterParagraph{
+    font-size: 1.3em;
+}
+.hamburger{
+   
+    
+    
+    padding: 20px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    
+    
+}
+
+.hamburger_box {
+    
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+   
+}
+
+.hamburger_inner , .hamburger_inner::after, .hamburger_inner::before{
+    
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%);
+    transition: background-color .3s .3s ease-in-out;
+}
+.hamburger_inner::before{
+   
+    content: "";
+    top: -8px;
+    transition: transform .3s .2s ease-in-out;
+   
+    
+}
+.hamburger_inner::after{
+   
+    content: "";
+    top:8px;
+    transition: transform .3s .2s ease-in-out;
+    
+}
+
+.hamburger--active .hamburger_inner{
+    background-color:transparent;
+    border:none;
+}
+.hamburger--active .hamburger_inner::before{
+
+    transform:translateX(-20px) translateY(8px) rotate(45deg) ;
+}
+
+.hamburger--active .hamburger_inner::after{
+
+    transform: translateX(-20px)translateY(-8px) rotate(-45deg) ;
+}
+.hamburger, .navigation{
+   
+    transition: transform .3s .1s ease-in-out;
+}
+.hamburger--active{
+    transform:translateX(250px) ;
+    border: none;
+    
+}
+.hamburger:focus {
+    outline: none;
+  }
+.navigation{
+    height: 100vh;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: translateX(-250px);
+    
+}
+.navigation--active{
+    transform: translateX(0px) ;
+}
+.navigation_list{
+    margin-top: 50px;
+    list-style:none;
+}
+.navigation_item{
+   padding:10px ;
+    
+    margin-bottom: 40px;
+}
+.textNav{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+
+
+}
