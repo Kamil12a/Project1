@@ -1,34 +1,199 @@
-body{
-    background-color:white;
+*{
+    margin: 0px;
+    padding: 0px;
 }
+body{
+    box-sizing: border-box;
+}
+header{
+    padding-top: 10px ;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: black;
+}
+.reception{
+    
+    text-decoration: none;
+    color: white;
+}
+nav{ 
+    display: flex;
+    width: 100%;
+}
+.navigation2{
+    list-style: none;
+    padding-top:25px ;
+    width: 100%;
+    display: flex;
+      
+}
+.listnavigation{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.ikea{
+    padding:0px;
+    width: 130px;
+}
+.car-logo{
+    width: 40px;
+}
+.user-logo{
+    width: 30px;
+}
+.heart-logo{
+    width: 40px;
+}
+.basket-logo{
+    width: 40px;
+}
+.list-nav-image{
+    display: flex;
+    width: 50%;
+    justify-content:space-around;
+}
+
+.search-field__input{
+    margin-top: 5px;
+    margin-left: 40px ;
+    font-size: 1.2em;
+    border-radius: 30px;
+    width: 60%;
+    height: 30px;
+    border-color: rgba(172, 150, 134, 0.5);;
+    background-color: rgba(172, 150, 134, 0.2);
+}
+
+main{
+    margin: 30px 100px 30px 100px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    gap:20px
+
+}
+
+
+
+.IkeaFamilyText{
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 2.5em;
+    color:white;
+    text-shadow: 10px 5px 5px  rgb(26, 25, 25);
+    
+    background-color: rgba(98, 122, 147, 0.6);
+}
+
+
+.IkeaFamilyText3{
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 2em;
+    color:white;
+    text-shadow: 10px 5px 5px  rgb(26, 25, 25);
+    
+   
+}
+
+.kitchen{
+    
+    width: 100%;
+    background:url("kuchnia.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+.living_room{
+    
+    width: 100%;
+    background:url("salon.jpg");
+    
+    background-size: cover;
+      background-position: center;
+    
+}
+.mainHeading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.mainHeading2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.threePhotos{
+    margin:30px 100px 30px;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    
+    gap:20px
+}
+
+.pan{
+    width: 100%;
+    background:url("patelnia.jpg");
+    
+    background-size: cover;
+      background-position: center;
+}
+.star{
+    width: 100%;
+    background:url("star.jpeg");
+    
+    background-size: cover;
+      background-position: center;
+}
+.cupboard{width: 100%;
+    background:url("cupboard.jpg");
+    
+    background-size: cover;
+      background-position: center;
+
+}
+
+
+
+
+
+
 .hamburger{
+    
+    
     
     padding: 20px;
     display: inline-block;
     cursor: pointer;
     background-color: transparent;
-    border: 0px  ;
-    
+    border: none;
     margin: 0;
     
-
+    
 }
 
 .hamburger_box {
     
-    width: 20px;
-    height: 7px;
+    width: 50px;
+    height: 20px;
     display: inline-block;
     position: relative;
    
-    
-    
-
 }
+
 .hamburger_inner , .hamburger_inner::after, .hamburger_inner::before{
     
     width: 100%;
-    height: 3px;
+    height: 5px;
     background-color: black;
     position: absolute;
     top:50%;
@@ -38,7 +203,7 @@ body{
 .hamburger_inner::before{
    
     content: "";
-    top: -5px;
+    top: -8px;
     transition: transform .3s .2s ease-in-out;
    
     
@@ -46,22 +211,23 @@ body{
 .hamburger_inner::after{
    
     content: "";
-    top:5px;
+    top:8px;
     transition: transform .3s .2s ease-in-out;
     
 }
 
 .hamburger--active .hamburger_inner{
     background-color:transparent;
+    border:none;
 }
 .hamburger--active .hamburger_inner::before{
 
-    transform:translateX(-10px) translateY(5px) rotate(45deg) ;
+    transform:translateX(-20px) translateY(8px) rotate(45deg) ;
 }
 
 .hamburger--active .hamburger_inner::after{
 
-    transform: translateX(-10px)translateY(-5px) rotate(-45deg) ;
+    transform: translateX(-20px)translateY(-8px) rotate(-45deg) ;
 }
 .hamburger, .navigation{
    
@@ -69,8 +235,12 @@ body{
 }
 .hamburger--active{
     transform:translateX(250px) ;
-    border:0px;
+    border: none;
+    
 }
+.hamburger:focus {
+    outline: none;
+  }
 .navigation{
     height: 100vh;
     width: 250px;
@@ -89,9 +259,14 @@ body{
     list-style:none;
 }
 .navigation_item{
-    margin-bottom: 20px;
+   padding:10px ;
+    
+    margin-bottom: 40px;
 }
-a{
+.textNav{
+    font-size: 1.3em;
     text-decoration: none;
-    color:black;
+    color: black;
+
+
 }
