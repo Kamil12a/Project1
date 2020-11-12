@@ -180,7 +180,7 @@
     }
     
     header{
-        height: 800px;
+        height: 600px;
         margin: 50px 0px 0px 0px;
         background:url(image/tlo.jpg);
         background-size: cover;
@@ -198,11 +198,11 @@
     }
     .the{
         
-        font-size:5em
+        font-size:3m
     }
     .navigation{
         padding: 12px 10px 0px;
-        height: 70px;
+        height: 50px;
         list-style: none;
         width: calc(100%-20px);
         display: flex;
@@ -213,7 +213,7 @@
     nav{
         margin: 0px 0px 10px 0px;
     }
-    a{  font-size: 3em;
+    a{  font-size: 2em;
         color: white;
         text-decoration: none;}
     .description{
@@ -227,17 +227,17 @@
     }
     .grzyby{
         border-radius: 20px;
-        width: 600px;
+        width: 350px;
     }
     .acena{
-        font-size: 4em;
+        font-size: 2.5em;
         padding: 10px 0px 10px 0px;
     }
     .amount, .quantity{
         display: none;
     }
     button{
-        font-size: 40px;
+        font-size: 2em;
         width: 120px;
     }
     .arow ,.brow, .crow , .drow , .erow{
@@ -249,14 +249,14 @@
     }
     h3{
         color: aliceblue;
-        font-size: 3em;
+        font-size: 1.5em;
         padding: 10px 0px 10px 0px;
     }
     .fb, .yt,.tw{
         width: 75px;
     }
     .paragraphs{
-        font-size: 2.2em;
+        font-size: 1em;
         padding: 5px 0px 5px 0px;
         color: aliceblue;
     }
