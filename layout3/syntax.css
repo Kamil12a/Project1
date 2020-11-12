@@ -372,11 +372,12 @@ footer{
 .hamburger{
    
     
-    
+    position: sticky;
+    top:20px;
     padding: 20px;
     display: inline-block;
     cursor: pointer;
-    background-color: transparent;
+    background-color:transparent;
     border: none;
     margin: 0;
     
@@ -384,7 +385,8 @@ footer{
 }
 
 .hamburger_box {
-    
+    position: sticky;
+    top:20px;
     width: 50px;
     height: 20px;
     display: inline-block;
@@ -398,7 +400,7 @@ footer{
     height: 5px;
     background-color: black;
     position: absolute;
-    top:50%;
+    
     transform: translate(-50%);
     transition: background-color .3s .3s ease-in-out;
 }
@@ -468,7 +470,176 @@ footer{
 .textNav{
     font-size: 1.3em;
     text-decoration: none;
-    color: black;
+    color: black;}
 
+@media only screen and (max-width: 1250px){
+    .listnavigation{
+        display: none;
+        
+    }
+    .list-nav-image{
+        
+        width: 100%;
+       
+    }
+    .search-field__input{
+        height: 25px;
+        margin-top: 5px;
+        margin-left: 0px ;
+        font-size: 1em;
+        width: 80%;
+       
+    }
+    .car-logo{
+        width: 35px;
+    }
+    .user-logo{
+        width: 25px;
+    }
+    .heart-logo{
+        width: 30px;
+    }
+    .basket-logo{
+        width: 30px;
+    }
+    .hamburger{
+        
+        padding: 20px 20px 0px 10px;
+        
+    }
+    .hamburger_box{
+        width: 40px;
+    }
+    
+    header{
+        padding-top: 10px ;
+        margin-bottom: 0px;
+        height: 45px;
+    }
+    
+    
+    main{
+        margin-left:30px ;
+        margin-right: 30px;
+        height: 500px;
+        gap:7px;
+    }
+    .kitchen{
+        width: 100%;
+    }
+    .IkeaFamilyText{   
+        width: 140px;
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 1.5em;    
+    }
+    .IkeaFamilyText3{
+        padding-top: 30px;
+        padding-left: 20px;
+        font-size: 1.5em;  
+    }
+    .threePhotos{
+        margin:20px 30px 30px;
+        height: 40vh;
+        gap:7px
+    }
+    .heading-Better{
+        margin-left:30px ;
+    }
+    .betterText{
+        font-size: 1.3em; 
+    }
+    .betterParagraph{
+        font-size: 1em;
+    }
+    .HeadingAfterMosaic{
+        margin-left: 30px;
+        font-size: 1.5em; 
+    }
+    .MosaicPhotos{
+        
+        gap: 7px;
+        
+        height: 800px;
+        margin: 0 auto;
+        margin: 20px 30px 0px 30px;
+    }
+    
+    .headingFooter{
+        font-size: 2em;
+        margin:50px 0px 0px 100px;
+    }
+    .container{
+         margin-left:10px;
+         margin-right: 10px;;
+         margin-top: 20px;
+    
+        height: 20vh;
+        width: 96%;
+        
+        gap: 7px;
+    }
+    .kids{
+        width: 70%;
+       
+         
+          
+    
+    }
+    .HoverText{
+
+        font-size: 1.3em;
+
+        
+    }
+    
+    .lying{
+        width: 70%;
+        
+    }
+    .food{
+        width: 70%;
+    }
+    .project{
+        display: none;
+    }
+    .checkUs{
+        display: none ;
+    
+    }
+   
+    .headingFooter{
+        font-size: 1.5em;
+        margin-left: 30px;
+        margin-top: 20px;
+        
+    }
+    footer{
+        
+        gap:5px;
+        margin:10px 30px 50px 30px;
+        
+        
+    }
+    
+    .heading-in-footer{
+        padding-bottom:10px ;
+        font-size: 1.2em;
+    }
+    .footer-paragraph{
+        display: auto;
+    }
+}
+@media only screen and (max-width: 850px){
+    footer{height: 25vh;}
+    
+}
+@media only screen and (max-width: 600px){
+    footer{
+        height: 10vh;
+    }
+    .footer-paragraph{
+        display: none ;
+}
 
 }
